@@ -1,0 +1,184 @@
+p, h2, label{
+  font-family: poppins;
+  font-size: 20px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: auto;
+  background-color: white;
+  margin: 0px;
+  gap: 2px;
+}
+
+.principal {
+  grid-row: 2;
+  margin-top: 4px;
+
+}
+
+/*HEADER*/
+.header {
+  grid-row: 1;
+  grid-column: 1 / 8;
+  background-color: rgb(114, 141, 230);
+  display: flex;
+  background: linear-gradient(to bottom, #3645ba, rgb(114, 141, 230), #3645ba);
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Dancing Script', cursive;
+}
+
+.principal {
+  grid-row: 2;
+  grid-column: 2 / 8;
+  background-color: #ded9d9;
+  border-radius: 10px;
+  margin-right: 8px;
+  padding-left: 2%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: 'Dancing Script', cursive;
+}
+
+#logo-ancora {
+  text-decoration: none;
+  color: black;
+}
+
+.barra-de-pesquisa #input {
+  height: 30px;
+  width: 450px;
+  min-width: 100px;
+  border-radius: 50px;
+  padding: 5px;
+  border-style: none;
+  box-shadow: 3px 3px 3px #474747;
+  background-color: #ede9e9;
+}
+
+.nav {
+  grid-row: 2 / 4;
+  grid-column: 1;
+  background-color: #ded9d9;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.nav ul {
+  background-color: blue;
+  padding: 0px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 5px;
+  background-color: #ded9d9;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-family: poppins;
+}
+
+.nav a:hover {
+  color: blue
+}
+
+.nav h2 {
+  text-align: center;
+}
+
+header.h_nav {
+  background-color: #ded9d9;
+  font-family: 'Dancing Script', cursive;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  background-color: #ded9d9;
+  border-radius: 10px;
+  grid-column: 2 / 8;
+  grid-row: 3;
+  margin-right: 8px;
+}
+
+.produtos {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px #a6a0a0;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+}
+
+#info {
+  grid-row: 3;
+  grid-column: 2;
+  background-color: white;
+  align-items: center;
+}
+
+.opcao {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px #a6a0a0;
+  margin: 25px;
+  padding: 10px;
+}
+
+footer {
+  grid-row: 4;
+  grid-column: 1 / 8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 12px;
+  padding: 0px 0px 5px 10px;
+  border-top: black;
+  background: linear-gradient(to bottom, #3645ba, rgb(114, 141, 230), #3645ba);
+}
+
+#redes h3 {
+  text-align: center;
+}
+
+#redes a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+#redes a:hover {
+  color: blue;
+}
+
+#localizacao h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+#redes li {
+  list-style: none;
+}
+
+h3 {
+  font-family: poppins;
+}
+
+.h_nav h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+}
